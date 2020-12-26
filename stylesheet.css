@@ -24,6 +24,9 @@ nav {
 nav li {
     margin: 5px;
 }
+nav li:hover {
+    cursor: pointer;    
+}
 
 nav a {
     color: black;
@@ -32,6 +35,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    
 }
 
 .sign-in-button {
@@ -40,6 +44,10 @@ nav a:hover {
     padding: 7px 10px;
     color: white;
     font-weight: bold;
+}
+
+.sign-in-button:hover {
+    text-decoration: none;
 }
 
 /* main */
